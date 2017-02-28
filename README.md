@@ -1,6 +1,6 @@
-# git-faker
+# Rubricator
 
-## A CLI Ruby script for faking Github commit history
+## A CLI Ruby script for fabricating Github commit history
 
 Commits are generated over a specified range of dates and saved via the `git commit --date` option. The number of commits on each date can be randomly generated within a range or set to a fixed value.
 
