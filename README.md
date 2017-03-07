@@ -8,9 +8,9 @@ By default, the script will use a range of 1 to 10 unless options are given.
 
 ### An overview:
 ```
-$ ruby faker.rb -h
+$ ruby rubricator.rb -h
 
-Usage: ruby faker.rb --date start_date end_date [options] ...
+Usage: ruby rubricator.rb --date start_date end_date [options] ...
 
 Dates must be formatted as M-D-YY
 
@@ -22,12 +22,12 @@ Dates must be formatted as M-D-YY
 
 Dates must be entered in the format of M-D-YY, ex. 1-17-16.
 
-Commits are saved in a file called "fakes.md" by default.
+Commits are saved in a file called "rubrications.md" by default.
 
 ### Example usage:
 
 ```
-$ ruby faker.rb --dates 1-17-16,1-31-16 -r 2,8
+$ ruby rubricator.rb --dates 1-17-16,1-31-16 -r 2,8
 80 commits written.
 ```
 
