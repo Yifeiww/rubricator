@@ -10,7 +10,7 @@ By default, the script will use a range of 1 to 10 unless options are given.
 ```
 $ ruby rubricator.rb -h
 
-Usage: ruby rubricator.rb --date start_date end_date [options] ...
+Usage: ruby rubricator.rb --dates start_date end_date [options] ...
 
 Dates must be formatted as M-D-YY
 
